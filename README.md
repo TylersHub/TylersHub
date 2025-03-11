@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
 - 🌱 I’m currently learning and exploring new technologies.
 - 👯 I’m looking to meet new people and collaborate on projects.
 - 💬 Ask me about anything.
-- 📫 How to reach me: [Email](mailto:tylershub@example.com)
+- 📫 How to reach me: [Email](18tyler.rosa1@gmail.com)
 - ⚡ Fun fact: I enjoy exercising.
 
 ## GitHub Stats
