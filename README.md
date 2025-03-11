@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hi there, I'm Tyler! 👋
 
-<!--
-**TylersHub/TylersHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to explore new technologies and build amazing projects.
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌱 I’m currently learning and exploring new technologies.
+- 👯 I’m looking to meet new people and collaborate on projects.
+- 💬 Ask me about anything.
+- 📫 How to reach me: [Email](mailto:tylershub@example.com)
+- ⚡ Fun fact: I enjoy exercising.
+
+## GitHub Stats
+
+![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=radical)
+
+## Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TylersHub&layout=compact&theme=radical)
+
+## Projects
+
+Here are some of my favorite projects:
+
+- [Project 1](https://github.com/TylersHub/BulkRenamer): File Renaming Software
+- [Project 2](https://github.com/TylersHub/Shopping-Website): Prototype Shopping Website
+- [Project 3](https://github.com/TylersHub/Event-Calendar): Text-Based Event Calendar
+
+## Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/tylerrosa)
+- [Personal Website](https://tylerrosa.com/)
