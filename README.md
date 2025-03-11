@@ -22,9 +22,9 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
 
 Here are some of my favorite projects:
 
-- [Project 1](https://github.com/TylersHub/BulkRenamer): File Renaming Software
-- [Project 2](https://github.com/TylersHub/Shopping-Website): Prototype Shopping Website
-- [Project 3](https://github.com/TylersHub/Event-Calendar): Text-Based Event Calendar
+- [BulkRenamer](https://github.com/TylersHub/BulkRenamer): File Renaming Software for Windows
+- [Shopping Website](https://github.com/TylersHub/Shopping-Website): Prototype Shopping Website for Computer Tech
+- [Event Calendar](https://github.com/TylersHub/Event-Calendar): Text-Based Event Calendar to Stay Organized
 
 ## Connect with Me
 
