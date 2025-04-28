@@ -12,11 +12,11 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
 
 ## GitHub Stats
 
-![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=radical&cache_seconds=10)
+![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=dark&hide=prs,issues&cache_seconds=10)
 
 ## Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TylersHub&layout=compact&theme=radical&cache_seconds=10)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TylersHub&layout=compact&theme=dark&cache_seconds=10)
 
 ## Projects
 
