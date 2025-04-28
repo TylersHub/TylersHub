@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
 
 ## Top Languages
 
-!![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TylersHub&layout=compact&theme=radical&cache_seconds=360)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TylersHub&layout=compact&theme=radical&cache_seconds=360)
 
 ## Projects
 
