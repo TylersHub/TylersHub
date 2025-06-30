@@ -12,7 +12,7 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
 
 ## GitHub Stats
 
-![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=dark&hide=prs,issues&cache_seconds=10)
+![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=dark&hide=issues,contribs&cache_seconds=10)
 
 ## Projects
 
