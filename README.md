@@ -1,12 +1,12 @@
-# Hello, I'm Tyler! 👋
+# Hello! 👋
 
-Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to explore new technologies and work on interesting projects.
+I'm Tyler, a passionate developer who loves to explore new tech and work on interesting projects.
 
 ## About Me 🧑‍💻
 
 - 🌱 I’m currently learning and exploring new tech.
 - 👯 I’m looking to meet new people and collaborate on projects.
-- ⚡ Fun fact: I enjoy going to the gym!
+- ⚡ I enjoy going to the gym, playing chess, and listening to music.
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" alt="Python"/>
@@ -23,7 +23,7 @@ Welcome to my GitHub profile! I'm Tyler, a passionate developer who loves to exp
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" alt="VSCode"/>
 </p>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=TylersHub&theme=alduin&no-frame=false&margin-w=10&rank=SSS,SS,S,AAA,AA,A,B,C)](https://github.com/ryo-ma/github-profile-trophy)
+![GitHub Trophies](https://github-profile-trophy-git-master-ryo-ma.vercel.app/?username=TylersHub&theme=alduin&no-frame=false&margin-w=10&rank=SSS,SS,S,AAA,AA,A,B,C)
 
 ![Tyler's GitHub stats](https://github-readme-stats.vercel.app/api?username=TylersHub&show_icons=true&theme=dark&hide=prs,issues,contribs&cache_seconds=10)
 
