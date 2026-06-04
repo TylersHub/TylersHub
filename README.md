@@ -35,7 +35,7 @@
 
 ## 🏆 Achievements
 
-![GitHub Trophies](https://github-profile-trophy-git-master-ryo-ma.vercel.app/?username=TylersHub&theme=alduin&no-frame=false&margin-w=10&title=Stars,Followers,Commits,Repositories,PullRequest,MultiLanguage)
+![GitHub Trophies](https://github-profile-trophy-fork-two.vercel.app/?username=TylersHub&theme=alduin&no-frame=false&margin-w=10&title=Stars,Followers,Commits,Repositories,PullRequest,MultiLanguage)
 
 ---
 
