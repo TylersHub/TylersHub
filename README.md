@@ -1,7 +1,7 @@
 # Hey, I'm Tyler 👋
 
-🚀 Computer Science student @ CCNY  
-💻 Aspiring Software Engineer (Full Stack / Systems / Data)  
+🚀 Computer Science student @ CCNY | HackHarvard Winner 
+💻 Software Engineer (Full Stack / Systems / Data)  
 🧠 I like building, solving, and learning from my curiosity 
 
 ---
