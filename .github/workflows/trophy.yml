@@ -17,13 +17,14 @@ jobs:
         with:
           username: TylersHub
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Corrected parameter names:
-          file: 'trophy.svg'        # Was 'output_path'
+          # CORRECTED INPUTS:
+          file: 'trophy.svg'           # Changed from 'output_path'
           theme: 'alduin'
-          margin-width: '10'        # Was 'margin-w'
+          margin-width: '10'           # Changed from 'margin-w'
           no-frame: 'false'
+          # NOTE: 'title' input is NOT supported by this Action. 
+          # It will generate all default trophies.
 
-          
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
