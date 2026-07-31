@@ -2,8 +2,8 @@ name: Generate Trophy
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # Runs weekly at midnight UTC
-  workflow_dispatch:    # Allows manual triggering
+    - cron: '0 0 * * 1' # Weekly on Monday
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -16,21 +16,17 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: TylersHub
-          output_path: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Map your URL parameters to action inputs
+          # Corrected parameter names:
+          file: 'trophy.svg'        # Was 'output_path'
           theme: 'alduin'
-          title: 'Stars,Followers,Commits,Repositories,PullRequest,MultiLanguage'
-          margin-w: '10'
+          margin-width: '10'        # Was 'margin-w'
           no-frame: 'false'
-          # Optional: Set row/col limits if needed, otherwise defaults apply
-          # column: '6' 
-          # row: '3'
 
+          
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add trophy.svg
-          # Only commit if there are changes to avoid empty commits
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🏆 Update trophy with alduin theme [skip ci]" && git push)   
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🏆 Update trophy [skip ci]" && git push)   
