@@ -1,0 +1,75 @@
+name: Update GitHub Trophies
+
+on:
+  # Allows you to run it manually from the Actions tab
+  workflow_dispatch:
+
+  # Automatically refreshes the trophies once per day
+  schedule:
+    - cron: "23 6 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-trophies
+  cancel-in-progress: true
+
+env:
+  # Change this to another supported theme if desired
+  TROPHY_THEME: tokyonight
+
+  # The generated SVG will be saved here
+  TROPHY_OUTPUT: assets/github-trophies.svg
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Check out trophy generator
+        uses: actions/checkout@v7
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: master
+          path: .trophy-generator
+          persist-credentials: false
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v1.x
+          cache: true
+
+      - name: Generate trophy SVG
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN2: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          deno run \
+            --allow-net \
+            --allow-env \
+            --allow-read \
+            --allow-write \
+            .trophy-generator/render_svg.ts \
+            "${{ github.repository_owner }}" \
+            "$TROPHY_OUTPUT" \
+            "$TROPHY_THEME"
+
+      - name: Commit updated trophy SVG
+        run: |
+          if git diff --quiet -- "$TROPHY_OUTPUT" && \
+             [ -z "$(git status --porcelain -- "$TROPHY_OUTPUT")" ]; then
+            echo "Trophy SVG has not changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "$TROPHY_OUTPUT"
+          git commit -m "chore: update GitHub trophies"
+          git push
