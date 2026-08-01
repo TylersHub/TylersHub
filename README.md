@@ -170,23 +170,6 @@
 
 ---
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img
-    src="./assets/github-stats.svg"
-    height="175"
-    alt="Tyler's GitHub statistics"
-  />
-  <img
-    src="./assets/top-languages.svg"
-    height="175"
-    alt="Tyler's most-used languages"
-  />
-</p>
-
----
-
 ## 🐍 Contribution Activity
 
 <p align="center">
