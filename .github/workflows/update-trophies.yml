@@ -1,11 +1,10 @@
 name: Update GitHub Trophies
 
 on:
-  # Allows you to run it manually from the Actions tab
   workflow_dispatch:
 
-  # Automatically refreshes the trophies once per day
   schedule:
+    # Every Sunday at 6:23 AM UTC
     - cron: "23 6 * * 0"
 
 permissions:
@@ -16,10 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # Change this to another supported theme if desired
   TROPHY_THEME: tokyonight
-
-  # The generated SVG will be saved here
   TROPHY_OUTPUT: assets/github-trophies.svg
 
 jobs:
@@ -28,10 +24,10 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Check out trophy generator
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           repository: ryo-ma/github-profile-trophy
           ref: master
@@ -42,7 +38,28 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
           deno-version: v1.x
-          cache: true
+
+      - name: Hide Issues and Reviews trophies
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          file = Path(".trophy-generator/render_svg.ts")
+          text = file.read_text()
+
+          old = """const card = new Card(
+              [],
+              [],"""
+
+          new = """const card = new Card(
+              ["-Issues", "-Reviews"],
+              [],"""
+
+          if old not in text:
+              raise SystemExit("Could not find the expected Card configuration.")
+
+          file.write_text(text.replace(old, new, 1))
+          PY
 
       - name: Generate trophy SVG
         env:
