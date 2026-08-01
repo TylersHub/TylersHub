@@ -1,3 +1,21 @@
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/ascii-portrait-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/ascii-portrait-light.svg"
+    />
+    <img
+      src="./assets/ascii-portrait-light.svg"
+      width="460"
+      alt="Animated ASCII portrait of Tyler"
+    />
+  </picture>
+</p>
+
 <div align="center">
 
 # Hey, I'm Tyler 👋

@@ -1,0 +1,5519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1584"
+  height="1524"
+  viewBox="0 0 1584 1524"
+  role="img"
+  aria-labelledby="portrait-title portrait-description"
+>
+  <title id="portrait-title">Animated ASCII portrait of Tyler in dark mode</title>
+
+  <desc id="portrait-description">
+    An ASCII portrait that prints from top to bottom with a terminal cursor.
+  </desc>
+
+  <style>
+    @font-face {
+      font-family: "PortraitMono";
+      src: url("data:font/woff2;base64,d09GMgABAAAAAAVcAA8AAAAACjgAAAUEAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVF4AgQwRCAqITIcFATYCJAM8CyAABCAFhD4HIBtKCCCeBXaLc4hXsYmX/arYjY0FEdXUqmfXNGMAXIeIpQCznLAUfiHwnc3PAwL9/P7e8yEMxn0jEVHhhAgmOgKoa8xHT+T+B0D3eLWmegOoIiSicJHRcQrwwixJAWpgoWB8dCLMqxC2quwrZIWKcRWusraJiTYsbdlA3ov2gX0XAoQCAIKgEAQBNKmogmvXITASqNgAfn8AAGE76INfjD1lZGUxSIHAYVsNki0EgPIqN0BXc7UMw1JaAQpCEHVhY5c2ANwnkwrr3/8L4RuSarA/RDmqHMiEhCAEo4BYCEAu+PnjcytxwMQ5aYW4CIRAkjEEDyixZQvIMEAeAlbYr26HQPojLwiU02pgF5NBZMHbE+FCIJhMtNDBCFMcccGdVDKo8IukBkNMnuk+8XmA/6U3XjsrGi4A0QiR3xxACEFYCOJXBCBEAJAOEAvIEEDuAYGv0zxB2TFjAagykVVnikCzVKIdan9NuA4PrR1uj/QWF4sUlJQYX1F/fbBYewvBU2R8JTmmsBAg8FG62fHGFL2TgrsNBuC1A4xClt55U2vv7cYb9fsfF+Ep1JS5KwX39vk7eG6Pd1XdmK4BMYP37iXEj1996owLo8Zu3IhLGDh4UMTg2b8/Ma731q38DEbk6OPLubHdd+4k0YHogbNnk/X206cTjUuLopt+dDRFu9DgXNFgCcMlkKgYThshNEKVmclmwsiOG9WNIvAUDvD5S2oveAal0G3XfufZEKwVRSgtuqrntV6RfUOyGbDbix8ZqJxhsO9R2nm3wsbJAxj9a9LajLKwSUY9beon2f8yllKRhXcN0na3t3fywlx7W7T3cLJ3d9CKx7tmZ4E8qFEfTU7XQYnI2NDGUVvrrbiz6RXWo5O3f1Josm5Iit/IoIF/lR2rZye7ZbyzcYf16uobmBqdDkYhzqu8/CPHOcrPO6DqjrzS7OyzPGc3O3s375B/EZeHdrSwCVqv1+rSyfrSHVxqKuHqSu/dnd+0bTM1JyElNkVSOdWn7bf3Du6slrBs6b9mNfxslTvdoPtaLV02PbV6GKV39aI1+ubu9G+dprUzqnWxY+1woP1Gi2imVvD+HHMfvqxe7qHwP+zRvV73Hrm5iX47ep3tdeaHkYX9U1mXT+kYu2VXHzdEZrvY1RNhyAPxFOyuJ8Dngc5PVAfN1poA7S71X+rt2e7uF+/etqB9ZGCRo2NR4ETHhkot3ZFarT2DA2sDjx+PzEfyCxND2gc0zgvy1bONz6jIjczML0/yDiBWrpxmXWJWYKDfaFZr1gj6q2b5xkztxA4kDFDAVbVa1llRyxsBB6gG9q6qa3OHc5r9FmxZXwJUfHR0J0BF+fuf/2r8f6G9zfoXCEQBIPB/5rHPb5T/Nk9AkFyEchOvnFGm85yIWtAF4EQwYDNNAK4+agEBIuQ605gjsPzzLBRg8GIhdghwG1yukMoiVxFOKdeiGS9cm2qSzQ0gWXpwAqkiE6QEQmVbn13KKxEp4t6XRUKXk7SlhFLqKCePHHKpRB1LzFVUncggZCH/X7QSDIjSZrSYChIOooRiSqKhlJsoH2bPKBFFVHEhlxLKwXb90vsqKaUCR8wwI4c8UHEV6ZiSwVOKMGvUOmxuPb7BhUXDydqUqygkjXIshS2xwAKnWTGcSg8xWd4+D1Of8WiybtueB+lTb92tlhBjfh3FflSSRiErZxBOCUWkPYwAAP6xWAIIAg==") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+
+    .ascii {
+      fill: #c9d1d9;
+      font-family: "PortraitMono", "JetBrains Mono", monospace;
+      font-size: 12.9px;
+      font-weight: 400;
+      white-space: pre;
+    }
+
+    .cursor {
+      fill: #58a6ff;
+    }
+  </style>
+
+  <rect
+    width="100%"
+    height="100%"
+    rx="14"
+    fill="#0d1117"
+  />
+
+  <defs>
+
+    <clipPath id="row-clip-0">
+      <rect
+        x="18"
+        y="18"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-1">
+      <rect
+        x="18"
+        y="33.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.09s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-2">
+      <rect
+        x="18"
+        y="49"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.18s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-3">
+      <rect
+        x="18"
+        y="64.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.27s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-4">
+      <rect
+        x="18"
+        y="80"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.36s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-5">
+      <rect
+        x="18"
+        y="95.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.45s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-6">
+      <rect
+        x="18"
+        y="111"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.54s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-7">
+      <rect
+        x="18"
+        y="126.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.63s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-8">
+      <rect
+        x="18"
+        y="142"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.72s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-9">
+      <rect
+        x="18"
+        y="157.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.81s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-10">
+      <rect
+        x="18"
+        y="173"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.9s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-11">
+      <rect
+        x="18"
+        y="188.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="0.99s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-12">
+      <rect
+        x="18"
+        y="204"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.08s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-13">
+      <rect
+        x="18"
+        y="219.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.17s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-14">
+      <rect
+        x="18"
+        y="235"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.26s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-15">
+      <rect
+        x="18"
+        y="250.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.35s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-16">
+      <rect
+        x="18"
+        y="266"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.44s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-17">
+      <rect
+        x="18"
+        y="281.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.53s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-18">
+      <rect
+        x="18"
+        y="297"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.62s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-19">
+      <rect
+        x="18"
+        y="312.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.71s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-20">
+      <rect
+        x="18"
+        y="328"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.8s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-21">
+      <rect
+        x="18"
+        y="343.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.89s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-22">
+      <rect
+        x="18"
+        y="359"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="1.98s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-23">
+      <rect
+        x="18"
+        y="374.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.07s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-24">
+      <rect
+        x="18"
+        y="390"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.16s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-25">
+      <rect
+        x="18"
+        y="405.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.25s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-26">
+      <rect
+        x="18"
+        y="421"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.34s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-27">
+      <rect
+        x="18"
+        y="436.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.43s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-28">
+      <rect
+        x="18"
+        y="452"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.52s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-29">
+      <rect
+        x="18"
+        y="467.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.61s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-30">
+      <rect
+        x="18"
+        y="483"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.7s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-31">
+      <rect
+        x="18"
+        y="498.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.79s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-32">
+      <rect
+        x="18"
+        y="514"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.88s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-33">
+      <rect
+        x="18"
+        y="529.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="2.97s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-34">
+      <rect
+        x="18"
+        y="545"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.06s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-35">
+      <rect
+        x="18"
+        y="560.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.15s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-36">
+      <rect
+        x="18"
+        y="576"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.24s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-37">
+      <rect
+        x="18"
+        y="591.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.33s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-38">
+      <rect
+        x="18"
+        y="607"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.42s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-39">
+      <rect
+        x="18"
+        y="622.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.51s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-40">
+      <rect
+        x="18"
+        y="638"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.6s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-41">
+      <rect
+        x="18"
+        y="653.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.69s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-42">
+      <rect
+        x="18"
+        y="669"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.78s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-43">
+      <rect
+        x="18"
+        y="684.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.87s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-44">
+      <rect
+        x="18"
+        y="700"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="3.96s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-45">
+      <rect
+        x="18"
+        y="715.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.05s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-46">
+      <rect
+        x="18"
+        y="731"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.14s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-47">
+      <rect
+        x="18"
+        y="746.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.23s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-48">
+      <rect
+        x="18"
+        y="762"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.32s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-49">
+      <rect
+        x="18"
+        y="777.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.41s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-50">
+      <rect
+        x="18"
+        y="793"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.5s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-51">
+      <rect
+        x="18"
+        y="808.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.59s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-52">
+      <rect
+        x="18"
+        y="824"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.68s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-53">
+      <rect
+        x="18"
+        y="839.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.77s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-54">
+      <rect
+        x="18"
+        y="855"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.86s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-55">
+      <rect
+        x="18"
+        y="870.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="4.95s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-56">
+      <rect
+        x="18"
+        y="886"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.04s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-57">
+      <rect
+        x="18"
+        y="901.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.13s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-58">
+      <rect
+        x="18"
+        y="917"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.22s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-59">
+      <rect
+        x="18"
+        y="932.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.31s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-60">
+      <rect
+        x="18"
+        y="948"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.4s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-61">
+      <rect
+        x="18"
+        y="963.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.49s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-62">
+      <rect
+        x="18"
+        y="979"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.58s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-63">
+      <rect
+        x="18"
+        y="994.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.67s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-64">
+      <rect
+        x="18"
+        y="1010"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.76s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-65">
+      <rect
+        x="18"
+        y="1025.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.85s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-66">
+      <rect
+        x="18"
+        y="1041"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="5.94s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-67">
+      <rect
+        x="18"
+        y="1056.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.03s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-68">
+      <rect
+        x="18"
+        y="1072"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.12s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-69">
+      <rect
+        x="18"
+        y="1087.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.21s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-70">
+      <rect
+        x="18"
+        y="1103"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.3s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-71">
+      <rect
+        x="18"
+        y="1118.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.39s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-72">
+      <rect
+        x="18"
+        y="1134"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.48s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-73">
+      <rect
+        x="18"
+        y="1149.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.57s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-74">
+      <rect
+        x="18"
+        y="1165"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.66s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-75">
+      <rect
+        x="18"
+        y="1180.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.75s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-76">
+      <rect
+        x="18"
+        y="1196"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.84s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-77">
+      <rect
+        x="18"
+        y="1211.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="6.93s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-78">
+      <rect
+        x="18"
+        y="1227"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.02s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-79">
+      <rect
+        x="18"
+        y="1242.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.11s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-80">
+      <rect
+        x="18"
+        y="1258"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.2s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-81">
+      <rect
+        x="18"
+        y="1273.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.29s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-82">
+      <rect
+        x="18"
+        y="1289"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.38s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-83">
+      <rect
+        x="18"
+        y="1304.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.47s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-84">
+      <rect
+        x="18"
+        y="1320"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.56s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-85">
+      <rect
+        x="18"
+        y="1335.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.65s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-86">
+      <rect
+        x="18"
+        y="1351"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.74s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-87">
+      <rect
+        x="18"
+        y="1366.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.83s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-88">
+      <rect
+        x="18"
+        y="1382"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="7.92s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-89">
+      <rect
+        x="18"
+        y="1397.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.01s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-90">
+      <rect
+        x="18"
+        y="1413"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.1s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-91">
+      <rect
+        x="18"
+        y="1428.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.19s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-92">
+      <rect
+        x="18"
+        y="1444"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.28s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-93">
+      <rect
+        x="18"
+        y="1459.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.37s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-94">
+      <rect
+        x="18"
+        y="1475"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.46s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="row-clip-95">
+      <rect
+        x="18"
+        y="1490.5"
+        width="0"
+        height="15.5"
+      >
+        <animate
+          attributeName="width"
+          from="0"
+          to="1548"
+          dur="0.45s"
+          begin="8.55s"
+          fill="freeze"
+        />
+      </rect>
+    </clipPath>
+  </defs>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="30.9"
+    clip-path="url(#row-clip-0)"
+    xml:space="preserve"
+  >                                                                                                                                                                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="18"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.45s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="46.4"
+    clip-path="url(#row-clip-1)"
+    xml:space="preserve"
+  >                                                                                                                                                                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="33.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.09s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.09s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.54s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="61.9"
+    clip-path="url(#row-clip-2)"
+    xml:space="preserve"
+  >                                                                                                                                                                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="49"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.18s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.18s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.63s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="77.4"
+    clip-path="url(#row-clip-3)"
+    xml:space="preserve"
+  >                                                                                                                                                                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="64.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.27s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.27s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.72s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="92.9"
+    clip-path="url(#row-clip-4)"
+    xml:space="preserve"
+  >                                                                                           ........                                                                                                     </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="80"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.36s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.36s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.81s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="108.4"
+    clip-path="url(#row-clip-5)"
+    xml:space="preserve"
+  >                                                                                        `-=+++++*cc++===-:`.                                                                                            </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="95.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.45s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.45s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.9s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="123.9"
+    clip-path="url(#row-clip-6)"
+    xml:space="preserve"
+  >                                                                               ....``.`-++=+c#%%%%@%%#c=+sc*++=-----:.                                                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="111"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.54s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.54s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="0.99s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="139.4"
+    clip-path="url(#row-clip-7)"
+    xml:space="preserve"
+  >                                                                          .`:-=++===+*csscc%#%%#sss%%#%%#ssssc**++++==-.                                                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="126.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.63s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.63s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.08s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="154.9"
+    clip-path="url(#row-clip-8)"
+    xml:space="preserve"
+  >                                                                       .:=*cs#%%%%%%%%#s##%%%%%#c#%@@@@@@@@@@%%%%%@####c+=:.                                                                            </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="142"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.72s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.72s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.17s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="170.4"
+    clip-path="url(#row-clip-9)"
+    xml:space="preserve"
+  >                                                                .:===--=s@@%%%@@@%@@@%%%%%@@%%%@@@@@@@@@@@@@@@@@@@@@@%@@%%#s=`..                                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="157.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.81s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.81s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.26s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="185.9"
+    clip-path="url(#row-clip-10)"
+    xml:space="preserve"
+  >                                                               `=*+=+*c%@%%#%%@@@@@@@@@%%%@@@%%@@@@@@@@@@@@@@@@@@@@@@@%%ss#%%sss*==-`.                                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="173"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.9s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.9s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.35s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="201.4"
+    clip-path="url(#row-clip-11)"
+    xml:space="preserve"
+  >                                                              `=+*ccs##@%%@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#%%@@%#%##ccc*-`.                                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="188.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="0.99s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="0.99s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.44s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="216.9"
+    clip-path="url(#row-clip-12)"
+    xml:space="preserve"
+  >                                                             .=+cs+#s%@@@@@@@@@@%%%@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%@@%%%%%cs%#c+`                                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="204"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.08s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.08s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.53s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="232.4"
+    clip-path="url(#row-clip-13)"
+    xml:space="preserve"
+  >                                                            .:*s%#%@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%@@@%%@@@%#%@%#=`                                                           </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="219.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.17s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.17s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.62s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="247.9"
+    clip-path="url(#row-clip-14)"
+    xml:space="preserve"
+  >                                                         .`:=c%%%@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@%%%@@%%%@%%@%@%c##=.                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="235"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.26s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.26s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.71s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="263.4"
+    clip-path="url(#row-clip-15)"
+    xml:space="preserve"
+  >                                                       `++cs%%@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@%%%%@@@@@@@%%%%@@%#%%%#c*#*.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="250.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.35s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.35s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.8s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="278.9"
+    clip-path="url(#row-clip-16)"
+    xml:space="preserve"
+  >                                                     .==*s#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@%%%%%%s%=.                                                       </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="266"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.44s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.44s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.89s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="294.4"
+    clip-path="url(#row-clip-17)"
+    xml:space="preserve"
+  >                                                    .=cs%%%%%%@@@@@@@%@@@%@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@%%%%%%%#*-:::`                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="281.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.53s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.53s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="1.98s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="309.9"
+    clip-path="url(#row-clip-18)"
+    xml:space="preserve"
+  >                                                   `+#%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@%%%%@%%#**c+*+`                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="297"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.62s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.62s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.07s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="325.4"
+    clip-path="url(#row-clip-19)"
+    xml:space="preserve"
+  >                                                  `+#%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@%%@@%%%%*++c*.                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="312.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.71s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.71s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.16s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="340.9"
+    clip-path="url(#row-clip-20)"
+    xml:space="preserve"
+  >                                                 :c%%s%@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%%@@@@@@@#css:                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="328"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.8s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.8s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.25s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="356.4"
+    clip-path="url(#row-clip-21)"
+    xml:space="preserve"
+  >                                                `c@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%###%%%%%%%%%##%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%@@@@%@@sc`                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="343.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.89s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.89s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.34s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="371.9"
+    clip-path="url(#row-clip-22)"
+    xml:space="preserve"
+  >                                                -#@%%@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@%%%%##s#s##%###ssss####%%%%%@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@s@%*.                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="359"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="1.98s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="1.98s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.43s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="387.4"
+    clip-path="url(#row-clip-23)"
+    xml:space="preserve"
+  >                                               .-#@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%##%%%#####%%##ssssssss#####%%%%%%@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@%s#-                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="374.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.07s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.07s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.52s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="402.9"
+    clip-path="url(#row-clip-24)"
+    xml:space="preserve"
+  >                                             .-+*%@%@@@@@@@@@@@@@@@@@@@@@@@@@%%%#######%%%%%%##scccccccccss#########%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@#:                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="390"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.16s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.16s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.61s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="418.4"
+    clip-path="url(#row-clip-25)"
+    xml:space="preserve"
+  >                                            `+ccs@@@@@@@@@@@@@@@@@@@@@@%%%%%####sssssssssssssccc******ccccssssssss#ssss########%%@@@@@@@@@@@@@@@@@@@@@@c`                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="405.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.25s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.25s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.7s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="433.9"
+    clip-path="url(#row-clip-26)"
+    xml:space="preserve"
+  >                                           :*cc%@@@@@@@@@@@@@@@@@@@@@%%%####ssssssscccccccc*******+*++***cccccssssssccsssssss#####%@@@@@@@@@%@@@@@@@@@@%#:                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="421"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.34s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.34s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.79s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="449.4"
+    clip-path="url(#row-clip-27)"
+    xml:space="preserve"
+  >                                          .=c+**#@@@@@@@@@@@@@@@@@@@%%####ssscccccccc***********+++++++++****cccccccccccc*cccscsss#%%@@@@@@@@%@@@@@@@@%%%c.                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="436.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.43s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.43s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.88s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="464.9"
+    clip-path="url(#row-clip-28)"
+    xml:space="preserve"
+  >                                           -s#ss%@@@@@@@@@@@@@@@@@@%%###ssssccccccc******++++++++=+++====++++++******************cs#%%@@@@@@@%%@@@@@@@%%%s`                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="452"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.52s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.52s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="2.97s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="480.4"
+    clip-path="url(#row-clip-29)"
+    xml:space="preserve"
+  >                                           .=s#*%%@@@@@@@@@@@@@@@%%####ssscscccc*******+++=+=+++====-----==+==+++****************css##%@@@@@@@@@@@@@@@%%#c-.                                            </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="467.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.61s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.61s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.06s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="495.9"
+    clip-path="url(#row-clip-30)"
+    xml:space="preserve"
+  >                                            `**c#@@@@@@@@@@@@@@@%%####sscccccccccc****++++++++++================+**c********++****cs##%%@@@@@@@@@@@@@@@%%*`                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="483"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.7s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.7s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.15s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="511.4"
+    clip-path="url(#row-clip-31)"
+    xml:space="preserve"
+  >                                             `++s@@@@@@@@@@@@@%%%##sssscccccccc********++++++=+++==-----==-=====++++++++***++++++**cs##%%%@@@@@@@@@@@@@@@s=.                                            </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="498.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.79s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.79s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.24s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="526.9"
+    clip-path="url(#row-clip-32)"
+    xml:space="preserve"
+  >                                              .:*#@@@@@@@@@@@%%##ssssccsc*ccccc*********++++++++==--------====+=+++++******+++*+****css#%%@@@@@@@@@@@%@%sc=.                                            </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="514"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.88s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.88s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.33s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="542.4"
+    clip-path="url(#row-clip-33)"
+    xml:space="preserve"
+  >                                                .:*%@@@@@@@@@%#ssscccccccccccccccccc*****++++++++=--------=+==+++***************cccccccs#%%@@@@@@@@@@@%s*-.                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="529.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="2.97s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="2.97s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.42s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="557.9"
+    clip-path="url(#row-clip-34)"
+    xml:space="preserve"
+  >                                                  `+#@@@@@@@@#scsssssccccccccccccccccc***+++=====---------==++=+++**************ccccccsss#%@@@@@@@@@@%sc=.                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="545"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.06s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.06s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.51s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="573.4"
+    clip-path="url(#row-clip-35)"
+    xml:space="preserve"
+  >                                                    `=s%@@@@%sccsssssccccc*ccc********++++==-=---------------===++**********cccccscsscssss%@@@@@%%%%#*=:.                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="560.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.15s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.15s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.6s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="588.9"
+    clip-path="url(#row-clip-36)"
+    xml:space="preserve"
+  >                                                      .`+s#@%ccssssssccc*****+++++++===--::::::::::::::::-:-----===+++++******cccssssssscc%@@@@@c-+==-.                                                 </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="576"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.24s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.24s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.69s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="604.4"
+    clip-path="url(#row-clip-37)"
+    xml:space="preserve"
+  >                                                         .`-#ccsscccccccc***++++++====-:::::::``````````````:::::--==+===+++++****csssssc*%@@@@@c..                                                     </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="591.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.33s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.33s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.78s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="619.9"
+    clip-path="url(#row-clip-38)"
+    xml:space="preserve"
+  >                                                           .*cccc**s%%%@%%%%%%%%%%%##sc*+===-::`````..`````::-+==+*csssscsssss###sscccsssc%%s*==-.                                                      </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="607"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.42s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.42s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.87s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="635.4"
+    clip-path="url(#row-clip-39)"
+    xml:space="preserve"
+  >                                                          ..-scc*c%@@@@@@@@@@@@@@@@@@@@%%#sc+=-::``..```:=*cs#%#s%@@@@@@@@@@@@@@@@@%#s*ccc%c-::.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="622.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.51s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.51s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="3.96s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="650.9"
+    clip-path="url(#row-clip-40)"
+    xml:space="preserve"
+  >                                                       .=cc=-sc*s@@%%%%###s###%%@@@@@@@@@@%#c*++-::`::-=+cs##%%%%@@@@@@@@@@%%%%%%@@@@%s*cs#**-.                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="638"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.6s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.6s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.05s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="666.4"
+    clip-path="url(#row-clip-41)"
+    xml:space="preserve"
+  >                                                       :#s#@%s*s%%#sc***++++++**css#%%%%%%%%#ss*++=--=+*css##%%%%%%%%%#scc*+**cccs##%%%ccs%%%s:                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="653.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.69s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.69s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.14s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="681.9"
+    clip-path="url(#row-clip-42)"
+    xml:space="preserve"
+  >                                                       -#%#%%#*s##sc*************ccss###%%%%%#sc*+=-=++*css##%%%%%%%##sccc*******ccsss##cs%%#c.                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="669"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.78s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.78s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.23s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="697.4"
+    clip-path="url(#row-clip-43)"
+    xml:space="preserve"
+  >                                                      `+s%#%%#csssss###%%###ss##%%%%%%%%%%@@%%#sc+=::=+*cs##%%%%@@@@@@%%#sss##%%##sssssccs#sss:                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="684.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.87s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.87s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.32s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="712.9"
+    clip-path="url(#row-clip-44)"
+    xml:space="preserve"
+  >                                                      :c####%#cs##%%@%%@@@@@@@@%@@%%@@%%%%@@@%%sc*==-=+*s#%%%%%@@@@@@@@@@@@@@%%%%%%%%##sccsscs=.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="700"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="3.96s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="3.96s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.41s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="728.4"
+    clip-path="url(#row-clip-45)"
+    xml:space="preserve"
+  >                                                      `c#s#%%#s##%%@@@@@@%#@@@@@@%+=c#@@%%%%@@%#s*++=+*c##%%%#%@@%%c+%@@@@@@%%@@@@@%%%##scsc*c+                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="715.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.05s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.05s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.5s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="743.9"
+    clip-path="url(#row-clip-46)"
+    xml:space="preserve"
+  >                                                      .*##%%@ss###%%%%%%%%%%%%@%%%%%%%%%%%%%@@%%sc****cs#%%%##%%%%@%%%@@@@@@%%%%%%%%%%##scsc**+.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="731"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.14s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.14s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.59s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="759.4"
+    clip-path="url(#row-clip-47)"
+    xml:space="preserve"
+  >                                                       :#%%@%c#ssss#######ss########%####%@@@@%#s*++***c##%%%%##%%%%%%%%###########sss#ssccc**+.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="746.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.23s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.23s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.68s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="774.9"
+    clip-path="url(#row-clip-48)"
+    xml:space="preserve"
+  >                                                       `s@@@ss##ssccss##%%%%%%%%%%##sss#%%%%%%%#c*+++++cs##%#######%%%%#####ss#ssssccss##scs##c.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="762"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.32s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.32s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.77s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="790.4"
+    clip-path="url(#row-clip-49)"
+    xml:space="preserve"
+  >                                                       .*%@@s###ssccccccccsssssccccccccc#%%%%%#sc*++===+css###sscss##########s#sssssss##ssc#%%c`                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="777.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.41s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.41s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.86s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="805.9"
+    clip-path="url(#row-clip-50)"
+    xml:space="preserve"
+  >                                                       .+#%@####sssccccccc**ccc**+++++*s#%%%%%#sc*+=--=*cccssscc*+++*cccccccccccccccssss##c#%#=.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="793"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.5s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.5s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="4.95s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="821.4"
+    clip-path="url(#row-clip-51)"
+    xml:space="preserve"
+  >                                                        -s#%####scc****+++==++*+====+*c#%####%#s*+=---+*ccc*ccccc*+==++++++++++***cccssssss##c-.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="808.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.59s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.59s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.04s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="836.9"
+    clip-path="url(#row-clip-52)"
+    xml:space="preserve"
+  >                                                        :#%%##ssscc***+++======+++++*cs#####%%#s*=----=*ccccccccc**++++++++++++*cc*cccssss#scc=                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="824"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.68s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.68s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.13s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="852.4"
+    clip-path="url(#row-clip-53)"
+    xml:space="preserve"
+  >                                                        .c%%%##sssc**+++======++++**ccs#####%%#c*=-:-=+*ccccsssscc**+++++++===+*cssccccsss###s+.                                                        </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="839.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.77s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.77s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.22s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="867.9"
+    clip-path="url(#row-clip-54)"
+    xml:space="preserve"
+  >                                                         .-c####ssc***++===++++++***cs#%%%%%%#s*+-::--=+*css##%#sc******++++===+*ccsscsss#sss+`                                                         </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="855"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.86s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.86s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.31s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="883.4"
+    clip-path="url(#row-clip-55)"
+    xml:space="preserve"
+  >                                                            .-###sc*****+++++++++*cs#%%%%%%%sc*+=-:::-=++*css#%%%#sssscc**++++++**ccssssss-:.                                                           </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="870.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="4.95s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="4.95s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.4s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="898.9"
+    clip-path="url(#row-clip-56)"
+    xml:space="preserve"
+  >                                                             .c%#ssssccc***++*ccss##%%#scs#s*+==-::`::-===+csscs#%#ss####sc**+****ccsssssc.                                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="886"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.04s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.04s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.49s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="914.4"
+    clip-path="url(#row-clip-57)"
+    xml:space="preserve"
+  >                                                              -%%%#####scccs#######%@#***sc++=---:```::---=+**++*s#sss##%%%#sccccssss#ss#+.                                                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="901.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.13s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.13s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.58s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="929.9"
+    clip-path="url(#row-clip-58)"
+    xml:space="preserve"
+  >                                                              `s%%%%%%##s#%%##ssss#%%s*++c*+=--::``````:::-=++===*#ssssss##%%%#sss#######=                                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="917"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.22s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.22s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.67s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="945.4"
+    clip-path="url(#row-clip-59)"
+    xml:space="preserve"
+  >                                                              .+%%%%%%%#%%%#####%####%s*+*c*+-::`````````:=++++*s##ss#######%%@%########s`                                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="932.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.31s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.31s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.76s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="960.9"
+    clip-path="url(#row-clip-60)"
+    xml:space="preserve"
+  >                                                               `s%%%%%##%%%@@@@@@@@@%%%%@%%%#*=:```````:-+s##%@@%%%%%%%%@%%%%%%@%%######*.                                                              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="948"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.4s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.4s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.85s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="976.4"
+    clip-path="url(#row-clip-61)"
+    xml:space="preserve"
+  >                                                               .=%%%%%%%@@@@@@@@@@@@@@@@@@@@@@#c==----=+#@@@@@@@@@@@@@@@@@@@@@@@%%#####s:                                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="963.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.49s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.49s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="5.94s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="991.9"
+    clip-path="url(#row-clip-62)"
+    xml:space="preserve"
+  >                                                                .c%%%%%#%@@@@@@@@@@@@@@@@@@@@@@@%#####%@@@@@@@@@@@@@@@@@@@@@@@@@#######*.                                                               </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="979"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.58s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.58s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.03s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1007.4"
+    clip-path="url(#row-clip-63)"
+    xml:space="preserve"
+  >                                                                 -#%%%%##%%%%#%@@%##%@@@@@@@@@@@%######%@@@@@@%%%%%%%%@@@@@@@@%#s####ss:                                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="994.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.67s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.67s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.12s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1022.9"
+    clip-path="url(#row-clip-64)"
+    xml:space="preserve"
+  >                                                                 .+%%%%%##ssccs###%%%%%##%##%%#c+=-:-==+cs######%%%%%%##sssccsss####ss=.                                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1010"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.76s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.76s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.21s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1038.4"
+    clip-path="url(#row-clip-65)"
+    xml:space="preserve"
+  >                                                                  .*#%%%%##cc**cccs##########sssss##sscccs####sscs###sc****cccs####ss+.                                                                 </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1025.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.85s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.85s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.3s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1053.9"
+    clip-path="url(#row-clip-66)"
+    xml:space="preserve"
+  >                                                                   `*%%%%%##s*++****ccc*++++++*ccsssssssc*++===+*cs*+++++*cccs###sss+.                                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1041"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="5.94s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="5.94s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.39s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1069.4"
+    clip-path="url(#row-clip-67)"
+    xml:space="preserve"
+  >                                                                    .+%%%%%##s**+++=-=++++++=--::``:::````:==++*c+-:=+++**ccs#####s=.                                                                   </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1056.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.03s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.03s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.48s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1084.9"
+    clip-path="url(#row-clip-68)"
+    xml:space="preserve"
+  >                                                                     :#%%%%%##sc*++*=::::==+===-:````````:-=++=-:`:=++**cccs###sss-.                                                                    </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1072"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.12s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.12s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.57s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1100.4"
+    clip-path="url(#row-clip-69)"
+    xml:space="preserve"
+  >                                                                     -s#%%%%%##ssc+++=-:::::--=-=---:-------:---===+*cccscs####s#-                                                                      </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1087.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.21s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.21s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.66s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1115.9"
+    clip-path="url(#row-clip-70)"
+    xml:space="preserve"
+  >                                                                     =css###%%##ssc*++++****c*+==+===+=+++**cssc*++*ccccss##ss#sc:                                                                      </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1103"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.3s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.3s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.75s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1131.4"
+    clip-path="url(#row-clip-71)"
+    xml:space="preserve"
+  >                                                                    `+ccss#%#####ssc*+==+c%%%%%%%%%%%%%%%%%%%#s++++*c*ccs#ss##s**-                                                                      </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1118.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.39s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.39s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.84s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1146.9"
+    clip-path="url(#row-clip-72)"
+    xml:space="preserve"
+  >                                                                   :cccccss#%###scssc*+===*#%%%%%@@@@@@@@%%##c=+++*c**csssssc****+.                                                                     </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1134"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.48s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.48s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="6.93s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1162.4"
+    clip-path="url(#row-clip-73)"
+    xml:space="preserve"
+  >                                                                  `#%ccc*cccs###scccc*+=--=+s#%%%@@@@@@@%#s*=====++***csssc*+******.                                                                    </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1149.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.57s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.57s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.02s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1177.9"
+    clip-path="url(#row-clip-74)"
+    xml:space="preserve"
+  >                                                                 `c@%c******ccs##sccc*++=--=**#%@@%@@@@%ccsc*c*ccc*cccs#c+++++++**%c.                                                                   </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1165"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.66s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.66s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.11s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1193.4"
+    clip-path="url(#row-clip-75)"
+    xml:space="preserve"
+  >                                                                .*@@@#c*++*****c##ss#####c**+c##%%%@%#%####c##s##s#ss#c+=======++c%@=.                                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1180.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.75s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.75s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.2s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1208.9"
+    clip-path="url(#row-clip-76)"
+    xml:space="preserve"
+  >                                                               .=%@@@%sc*++++++**s#%%%%%%#%##sss%%%%%s###%##%##%%%%#c+=------==+*s@@%:                                                                  </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1196"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.84s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.84s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.29s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1224.4"
+    clip-path="url(#row-clip-77)"
+    xml:space="preserve"
+  >                                                              .=%@@@@@#scc**+++*+*s@@@@@%%%%##s*#s#%#s%%%%%%%%%%@@%#=---::---=++c%@@@s`                                                                 </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1211.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="6.93s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="6.93s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.38s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1239.9"
+    clip-path="url(#row-clip-78)"
+    xml:space="preserve"
+  >                                                             .-#%@@@@@%##sc**+++++s%@@@@@@@@%%%#%#%%%%@@%%%%@@@@@@%#+-::::--==+c#@@@@%c`                                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1227"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.02s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.02s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.47s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1255.4"
+    clip-path="url(#row-clip-79)"
+    xml:space="preserve"
+  >                                                          .`=c%@@@@@@@@%##sc**++=+c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#s=-:::--==+c#%@@@@%%c:`...                                                           </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1242.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.11s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.11s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.56s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1270.9"
+    clip-path="url(#row-clip-80)"
+    xml:space="preserve"
+  >                                                     .`-*s%@@%@@@@@@@@@@%%#scc*++**#%%@@@@@@@@@@@@@@@@@@@@@@@@@%%#c=:::---=+*s#%@@@@@@%%%%####sc*+=-:`..                                                </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1258"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.2s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.2s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.65s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1286.4"
+    clip-path="url(#row-clip-81)"
+    xml:space="preserve"
+  >                                                 .:=c#@@@@@@@@@@@@@@@@@@@@%#ssc*++*+s#@@@@@@@@@@@@@@@@@@@@@@%##c==-:-::-==+c#%%@@@@@@@@%%%%%%%%%@@@@@@%#c+=:`.                                          </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1273.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.29s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.29s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.74s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1301.9"
+    clip-path="url(#row-clip-82)"
+    xml:space="preserve"
+  >                                             .`=c#@@@@@@@@@@@@@@@@@@@@@@@@@%##sc**+++cs#%@@@@@@@@@@@@@@@@%%%#s++---::--=+c##%@@@@@@@@@@@@%%%%%@@%%%@@@@@@@@@%#c+-`.                                     </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1289"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.38s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.38s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.83s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1317.4"
+    clip-path="url(#row-clip-83)"
+    xml:space="preserve"
+  >                                         .`-*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##sc**+*ccss#%%%@%%%##%ssccsscc**+==---=+c##%%@@@@@@@@@@@@@%%%@@@@@@%@@@@@@@@@@@@%%%s*=`.                                 </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1304.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.47s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.47s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="7.92s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1332.9"
+    clip-path="url(#row-clip-84)"
+    xml:space="preserve"
+  >                                      `-*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##sccc**c****+c**c*+====--=--===---=+c##%%@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@%%%%%%#c=`.                             </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1320"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.56s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.56s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.01s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1348.4"
+    clip-path="url(#row-clip-85)"
+    xml:space="preserve"
+  >                                  `-*s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##scccsscc*++====--:-::::-====++*s##%%@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@%%%%@%%%@%#*-.                          </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1335.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.65s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.65s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.1s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1363.9"
+    clip-path="url(#row-clip-86)"
+    xml:space="preserve"
+  >                             .`-*s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#sssss#sc**+==---::---==++**cs###%%@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@%%%%%%%@%%%@@@%c-`                       </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1351"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.74s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.74s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.19s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1379.4"
+    clip-path="url(#row-clip-87)"
+    xml:space="preserve"
+  >                         .`-*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#######scc*++======++**cs####%%@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@%%%%%%%%%%%%%%@@@@%c=`                    </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1366.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.83s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.83s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.28s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1394.9"
+    clip-path="url(#row-clip-88)"
+    xml:space="preserve"
+  >                      `-*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%####ssccc********cs#####%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@%%%%@@@@@@@@%c-`                 </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1382"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="7.92s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="7.92s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.37s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1410.4"
+    clip-path="url(#row-clip-89)"
+    xml:space="preserve"
+  >                  .:+s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%#ssscccccss##%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%%%@@@@@@@@@@@%#*-.              </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1397.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.01s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.01s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.46s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1425.9"
+    clip-path="url(#row-clip-90)"
+    xml:space="preserve"
+  >               `-*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%#%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%%%@@@@@@@@@@@@@%s+:.           </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1413"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.1s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.1s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.55s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1441.4"
+    clip-path="url(#row-clip-91)"
+    xml:space="preserve"
+  >           .`=c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@%%s+-`.       </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1428.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.19s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.19s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.64s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1456.9"
+    clip-path="url(#row-clip-92)"
+    xml:space="preserve"
+  >        .:+s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@%%%#s*=`.   </text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1444"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.28s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.28s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.73s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1472.4"
+    clip-path="url(#row-clip-93)"
+    xml:space="preserve"
+  >     .:*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%#s+-`</text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1459.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.37s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.37s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.82s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1487.9"
+    clip-path="url(#row-clip-94)"
+    xml:space="preserve"
+  >  .`+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%#</text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1475"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.46s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.46s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="8.91s"
+    />
+  </rect>
+
+
+  <text
+    class="ascii"
+    x="18"
+    y="1503.4"
+    clip-path="url(#row-clip-95)"
+    xml:space="preserve"
+  >:+s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%</text>
+
+  <rect
+    class="cursor"
+    x="18"
+    y="1490.5"
+    width="7.74"
+    height="12.9"
+    visibility="hidden"
+  >
+    <set
+      attributeName="visibility"
+      to="visible"
+      begin="8.55s"
+    />
+
+    <animate
+      attributeName="x"
+      from="18"
+      to="1566"
+      dur="0.45s"
+      begin="8.55s"
+      fill="freeze"
+    />
+
+    <set
+      attributeName="visibility"
+      to="hidden"
+      begin="9s"
+    />
+  </rect>
+</svg>
