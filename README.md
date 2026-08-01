@@ -35,12 +35,11 @@
 
 <br>
 
-<a href="https://tylerrosa.com">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/tylerrosa">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/tylerrosa"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Tyler on LinkedIn"></a>
+  &nbsp;&nbsp;
+  <a href="https://tylerrosa.com"><img src="https://img.shields.io/badge/View%20My%20Portfolio-181717?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View Tyler's portfolio"></a>
+</p>
 
 </div>
 
