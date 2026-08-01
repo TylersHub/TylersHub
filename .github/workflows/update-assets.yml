@@ -1,0 +1,166 @@
+name: Update Profile Assets
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Every Sunday at 6:23 AM UTC
+    - cron: "23 6 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-assets
+  cancel-in-progress: true
+
+env:
+  TROPHY_THEME: tokyonight
+  TROPHY_OUTPUT: assets/github-trophies.svg
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ------------------------------------------------------------
+      # Check out your profile repository
+      # ------------------------------------------------------------
+
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      # ------------------------------------------------------------
+      # Generate GitHub trophies
+      # ------------------------------------------------------------
+
+      - name: Check out trophy generator
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: master
+          path: .trophy-generator
+          persist-credentials: false
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v1.x
+
+      - name: Hide Issues and Reviews trophies
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path(".trophy-generator/render_svg.ts")
+          text = path.read_text(encoding="utf-8")
+
+          old = """const card = new Card(
+              [],
+              [],"""
+
+          new = """const card = new Card(
+              ["-Issues", "-Reviews"],
+              [],"""
+
+          if old not in text:
+              raise SystemExit(
+                  "Could not find the expected Card configuration "
+                  "inside render_svg.ts."
+              )
+
+          path.write_text(
+              text.replace(old, new, 1),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Generate trophy SVG
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN2: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          deno run \
+            --allow-net \
+            --allow-env \
+            --allow-read \
+            --allow-write \
+            .trophy-generator/render_svg.ts \
+            "${{ github.repository_owner }}" \
+            "$TROPHY_OUTPUT" \
+            "$TROPHY_THEME"
+
+      # ------------------------------------------------------------
+      # Generate GitHub statistics
+      # ------------------------------------------------------------
+
+      - name: Generate GitHub stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &hide_border=true
+            &include_all_commits=true
+            &theme=tokyonight
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &hide_border=true
+            &langs_count=8
+            &theme=tokyonight
+          path: assets/top-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ------------------------------------------------------------
+      # Generate contribution snakes
+      # ------------------------------------------------------------
+
+      - name: Generate contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ------------------------------------------------------------
+      # Commit every generated asset together
+      # ------------------------------------------------------------
+
+      - name: Remove temporary generator files
+        run: rm -rf .trophy-generator
+
+      - name: Commit updated profile assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            assets/github-trophies.svg \
+            assets/github-stats.svg \
+            assets/top-languages.svg \
+            assets/github-snake.svg \
+            assets/github-snake-dark.svg
+
+          if git diff --cached --quiet; then
+            echo "No profile asset changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update profile assets"
+          git push
