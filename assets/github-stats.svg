@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Tyler Rosa&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 8, Total Commits  : 329, Total PRs: 35, Total Issues: 2, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Stars Earned: 8, Total Commits  : 329, Total PRs: 35, Total Issues: 2, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 191.34931138822304;
+        stroke-dashoffset: 191.16264515806319;
       }
     }
   
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >4</text>
+      >3</text>
     </g>
   </g>
     </svg>
